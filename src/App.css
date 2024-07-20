@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aqua;
+}
+
+
+.navbar{
+  height: 70px;
+  margin: 40px;
+  background-color: yellow;
+  border: 3px solid black;
+  border-radius: 50px 50px;
+
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 5px;
+}
+
+h1{
+  border: 5px ridge black;
+  height: 50px;
+  border-radius: 50px 50px;
+  text-align: center;
+  margin: 200px;
+  background-color: blue;
+  background-size: cover;
+ 
+}
+
+h1:hover{
+  color:lime;
+  text-shadow: 2px 6px 5px red;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: rgb(0, 17, 255);
+  text-shadow: 2px 6px 5px red;
+}
